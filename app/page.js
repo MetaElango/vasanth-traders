@@ -148,11 +148,13 @@ export default function Home() {
           </div>
           <div>
             <p className="w-full md:w-5/6 md:px-8 text-xl leading-relaxed">
-              Lorem ipsum odor amet, consectetuer adipiscing elit. Primis est at
-              dui donec curae. Volutpat sollicitudin curabitur elementum;
-              posuere aenean praesent dui consectetur facilisi. Sapien elit
-              fermentum erat vitae inceptos habitant cursus. Convallis montes
-              magnis ultrices pharetra blandit facilisis nibh finibus.
+              At Sri Vasanth Traders, we are committed to delivering the finest
+              quality rice products to our valued customers. With decades of
+              experience in the industry, we maintain rigorous standards of
+              excellence, ensuring that each product meets the highest
+              benchmarks for taste, freshness, and nutritional value. Our
+              state-of-the-art machinery and meticulous processing techniques
+              enable us to consistently offer the best to our clients.
             </p>
           </div>
         </div>
