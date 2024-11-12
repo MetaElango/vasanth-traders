@@ -23,7 +23,7 @@ import GoogleMap from "@/components/ui/googleMap/googleMap";
 export default function Home() {
   const plugin = React.useRef(Autoplay({ delay: 4000 }));
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <Carousel plugins={[plugin.current]} className="w-full h-3/6">
         <CarouselContent>
           <CarouselItem key={1}>
@@ -39,7 +39,7 @@ export default function Home() {
                           `text-3xl md:text-4xl mt-8 ${montserrat.className}`
                         )}
                       >
-                        Trading best quality{" "}
+                        Best quality{" "}
                         <span className="text-[#ffff00] font-semibold">
                           Puffed and Parboiled Rice
                         </span>
@@ -63,7 +63,7 @@ export default function Home() {
                           `text-3xl md:text-4xl mt-8 ${montserrat.className}`
                         )}
                       >
-                        State of the art{" "}
+                        Top class{" "}
                         <span className="text-[#ffff00] font-semibold">
                           Machineries
                         </span>
@@ -76,7 +76,7 @@ export default function Home() {
           </CarouselItem>
         </CarouselContent>
       </Carousel>
-      <section className="max-w-7xl p-4 md:p-16 ">
+      <section className="max-w-7xl p-4 md:p-16 mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1">
             <h2
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="max-w-7xl p-4 md:p-16 bg-white">
+      <section className="max-w-7xl p-4 md:p-16 bg-white mx-auto">
         <div className="flex flex-col md:flex-row">
           <div>
             <h2
@@ -191,7 +191,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white">
+      <section className="bg-white max-w-7xl mx-auto">
         <h2
           className={cn(
             `text-2xl md:text-3xl ${montserrat.className} text-heading_color p-4 md:p-16 pt-16`
@@ -223,7 +223,7 @@ export default function Home() {
                       Sri Vasanth Traders
                     </p>
                     <p className="text-lg md:text-xl">69, RS Road,</p>
-                    <p className="text-lg md:text-xl">Perundura, Erode,</p>
+                    <p className="text-lg md:text-xl">Perundurai, Erode,</p>
                     <p className="text-lg md:text-xl">
                       Tamilnadu, India - 638052
                     </p>

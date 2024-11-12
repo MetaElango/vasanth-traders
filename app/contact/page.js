@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="bg-white">
+    <div className="bg-white max-w-7xl mx-auto">
       <section className="bg-white">
         <h2
           className={cn(
@@ -40,7 +40,7 @@ export default function Contact() {
                       Sri Vasanth Traders
                     </p>
                     <p className="text-lg md:text-xl">69, RS Road,</p>
-                    <p className="text-lg md:text-xl">Perundura, Erode,</p>
+                    <p className="text-lg md:text-xl">Perundurai, Erode,</p>
                     <p className="text-lg md:text-xl">
                       Tamilnadu, India - 638052
                     </p>

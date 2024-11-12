@@ -6,7 +6,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function About() {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <section className="p-4 md:p-16 pt-16">
         <h2
           className={cn(
@@ -74,7 +74,7 @@ export default function About() {
                       Sri Vasanth Traders
                     </p>
                     <p className="text-lg md:text-xl">69, RS Road,</p>
-                    <p className="text-lg md:text-xl">Perundura, Erode,</p>
+                    <p className="text-lg md:text-xl">Perundurai, Erode,</p>
                     <p className="text-lg md:text-xl">
                       Tamilnadu, India - 638052
                     </p>

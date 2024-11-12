@@ -2,7 +2,7 @@ import { User, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#484848]">
+    <footer className="bg-[#484848] max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row p-4 md:p-16 pt-16">
         <div className="flex-1">
           <div>

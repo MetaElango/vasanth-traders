@@ -28,8 +28,12 @@ export default function Navbar() {
 
   const pathname = usePathname();
   return (
-    <header className="background px-4 md:px-16 py-6 flex justify-between items-center border-b border-nl_button_border z-10">
-      <Link href="/">Sri Vasanth Traders</Link>
+    <header className="background px-4 md:px-16 py-6 flex justify-between items-center border-b border-nl_button_border z-10 max-w-7xl mx-auto">
+      <Link href="/">
+        <div className="w-48 md:w-56">
+          <img src="/images/logo-1.png" layout="responsive" alt="Logo" />
+        </div>
+      </Link>
 
       <nav className="text-[12px] sm:text-base hidden lg:block">
         {routes.map((route) => (
