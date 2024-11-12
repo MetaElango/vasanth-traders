@@ -41,7 +41,7 @@ export default function Home() {
                       >
                         Trading best quality{" "}
                         <span className="text-[#ffff00] font-semibold">
-                          Puffed and Par Boiled Rice
+                          Puffed and Parboiled Rice
                         </span>
                       </h2>
                     </div>
@@ -65,7 +65,7 @@ export default function Home() {
                       >
                         Trading best quality{" "}
                         <span className="text-[#ffff00] font-semibold">
-                          Puffed and Par Boiled Rice
+                          Puffed and Parboiled Rice
                         </span>
                       </h2>
                     </div>
@@ -86,7 +86,7 @@ export default function Home() {
             >
               Selling best quality{" "}
               <span className="text-heading_color font-semibold">
-                Puffed and Par Boiled Rice
+                Puffed and Parboiled Rice
               </span>
             </h2>
             <p className="mt-8 text-xl leading-relaxed">
@@ -105,7 +105,7 @@ export default function Home() {
             >
               One of the best supplier of{" "}
               <span className="text-heading_color font-semibold">
-                Puffed and Par Boiled Rice all over Tamilnadu
+                Puffed and Parboiled Rice all over Tamilnadu
               </span>
             </h2>
             <p className="mt-8 text-xl leading-relaxed">

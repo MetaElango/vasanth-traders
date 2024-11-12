@@ -87,7 +87,7 @@ export default function Products() {
                 Parboiled Rice
               </span>
             </h2>
-            <ul className="mt-4 text-lg md:w-3/4 px-4 md:px-16">
+            <ul className="mt-4 text-lg md:w-3/4 pl-4 md:pl-16 pb-8">
               <li className="mt-2">
                 <span>
                   <CornerDownRight
