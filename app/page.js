@@ -55,7 +55,7 @@ export default function Home() {
               <Card>
                 <CardContent className="p-0">
                   <div>
-                    <img src="/images/img-1.jpg" className="w-full" />
+                    <img src="/images/img-2.jpg" className="w-full" />
                     <div className="absolute top-0 left-50 w-full h-full bg-black opacity-60 text-white text-5xl flex items-center justify-center"></div>
                     <div className="absolute top-0 left-50 w-full h-full text-white text-5xl flex items-center justify-center ml-4">
                       <h2
@@ -63,9 +63,9 @@ export default function Home() {
                           `text-3xl md:text-4xl mt-8 ${montserrat.className}`
                         )}
                       >
-                        Trading best quality{" "}
+                        State of the art{" "}
                         <span className="text-[#ffff00] font-semibold">
-                          Puffed and Parboiled Rice
+                          Machineries
                         </span>
                       </h2>
                     </div>
