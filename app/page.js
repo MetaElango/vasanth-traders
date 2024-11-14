@@ -20,13 +20,68 @@ import Link from "next/link";
 import Footer from "@/components/ui/footer/footer";
 import GoogleMap from "@/components/ui/googleMap/googleMap";
 
+const sliderContent = [
+  <>
+    <div className="absolute top-0 left-50 w-full h-full bg-black opacity-60 text-white text-5xl flex items-center justify-center"></div>
+    <div className="absolute top-0 left-50 w-full h-full text-white text-5xl flex items-center justify-center ml-4">
+      <h2 className={cn(`text-3xl md:text-4xl mt-8 ${montserrat.className}`)}>
+        Best quality{" "}
+        <span className="text-[#ffff00] font-semibold">
+          Puffed and Parboiled Rice
+        </span>
+      </h2>
+    </div>
+  </>,
+  <>
+    <div className="absolute top-0 left-50 w-full h-full bg-black opacity-60 text-white text-5xl flex items-center justify-center"></div>
+    <div className="absolute top-0 left-50 w-full h-full text-white text-5xl flex items-center justify-center ml-4">
+      <h2 className={cn(`text-3xl md:text-4xl mt-8 ${montserrat.className}`)}>
+        Top class{" "}
+        <span className="text-[#ffff00] font-semibold">Machineries</span>
+      </h2>
+    </div>
+  </>,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+];
+
 export default function Home() {
   const plugin = React.useRef(Autoplay({ delay: 4000 }));
   return (
     <div className="max-w-7xl mx-auto">
       <Carousel plugins={[plugin.current]} className="w-full h-3/6">
         <CarouselContent>
-          <CarouselItem key={1}>
+          {sliderContent.map((el, index) => {
+            return (
+              <CarouselItem key={index}>
+                <div className="p-0">
+                  <Card>
+                    <CardContent className="p-0">
+                      <div>
+                        <img
+                          src={`/images/banners/banner-${index}.jpg`}
+                          className="w-full"
+                        />
+                        {el && el}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            );
+          })}
+          {/* <CarouselItem key={1}>
             <div className="p-0">
               <Card>
                 <CardContent className="p-0">
@@ -73,7 +128,7 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
-          </CarouselItem>
+          </CarouselItem> */}
         </CarouselContent>
       </Carousel>
       <section className="max-w-7xl p-4 md:p-16 mx-auto">
