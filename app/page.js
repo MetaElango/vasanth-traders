@@ -245,7 +245,16 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        <div className="mt-40 flex justify-center items-center">
+      </section>
+      <section className="max-w-7xl mx-auto">
+        <h2
+          className={cn(
+            `text-2xl md:text-3xl ${montserrat.className} text-heading_color p-4 md:p-16 pt-16`
+          )}
+        >
+          Our Gallery
+        </h2>
+        <div className="flex justify-center items-center mb-20">
           <Carousel
             opts={{
               align: "start",
@@ -260,11 +269,11 @@ export default function Home() {
                 >
                   <div className="p-1">
                     <Card className="border-2 border-heading_color/30">
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <CardContent className="flex aspect-square items-center justify-center p-0">
                         <div>
                           <img
                             src={`/images/carousel/carousel-${index + 1}.jpg`}
-                            className="w-full"
+                            className="w-full rounded-lg"
                           />
                         </div>
                       </CardContent>
