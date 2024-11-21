@@ -258,6 +258,7 @@ export default function Home() {
           <Carousel
             opts={{
               align: "start",
+              loop: true,
             }}
             className="w-3/4 md:w-full max-w-2xl"
           >
