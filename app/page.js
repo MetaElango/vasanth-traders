@@ -245,6 +245,38 @@ export default function Home() {
             </Button>
           </div>
         </div>
+        <div className="mt-40 flex justify-center items-center">
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className="w-3/4 md:w-full max-w-2xl"
+          >
+            <CarouselContent>
+              {Array.from({ length: 5 }).map((_, index) => (
+                <CarouselItem
+                  key={index}
+                  className="md:basis-1/2 lg:basis-1/2 "
+                >
+                  <div className="p-1">
+                    <Card className="border-2 border-heading_color/30">
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <div>
+                          <img
+                            src={`/images/carousel/carousel-${index + 1}.jpg`}
+                            className="w-full"
+                          />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
       </section>
       <section className="bg-white max-w-7xl mx-auto">
         <h2
