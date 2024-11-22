@@ -263,7 +263,7 @@ export default function Home() {
             className="w-3/4 md:w-full max-w-2xl"
           >
             <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
+              {Array.from({ length: 10 }).map((_, index) => (
                 <CarouselItem
                   key={index}
                   className="md:basis-1/2 lg:basis-1/2 "
